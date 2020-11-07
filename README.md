@@ -19,9 +19,9 @@ For me this will be Kata-like learning habit which may (i hope) become helpful t
 
 ## Content
 
-<a href=[Polish.md](https://github.com/mwawerHub/CoderCheatSheet/blob/main/Polish.md)>Polish</a>
+<a href="https://github.com/mwawerHub/CoderCheatSheet/blob/main/Polish.md">Polish</a>
 <br>
-<a href=[English.md](https://github.com/mwawerHub/CoderCheatSheet/blob/main/English.md)>English</a>
+<a href="https://github.com/mwawerHub/CoderCheatSheet/blob/main/English.md">English</a>
 
 ## Markdown
 
