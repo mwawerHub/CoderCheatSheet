@@ -1,5 +1,14 @@
 ## Table of Contents
-[TOC]
+- [Table of Contents](#table-of-contents)
+- [SOLID](#solid)
+  - [S: Single responsibility principle](#s-single-responsibility-principle)
+  - [O: Open(for extensions)/Closed(for modifications)](#o-openfor-extensionsclosedfor-modifications)
+  - [L: Liskov substitution](#l-liskov-substitution)
+  - [I: Interface segregation](#i-interface-segregation)
+  - [D: Dependency Inversion](#d-dependency-inversion)
+- [Sources:](#sources)
+- [Other Resources:](#other-resources)
+
 
 ## SOLID
 ### S: Single responsibility principle

@@ -1,5 +1,13 @@
 ## Spis Treści
-[TOC]
+- [Spis Treści](#spis-treści)
+- [SOLID](#solid)
+  - [S: Zasada pojedynczej odpowiedzialności](#s-zasada-pojedynczej-odpowiedzialności)
+  - [O: Otwarty(na rozszerzanie)/Zamknięty(na modyfikację)](#o-otwartyna-rozszerzaniezamkniętyna-modyfikację)
+  - [L: Zasada podstawienia Liskov](#l-zasada-podstawienia-liskov)
+  - [I: Segregacja interfejsów](#i-segregacja-interfejsów)
+  - [D: (*Dependency Inversion*) Odwrócenie zależności](#d-dependency-inversion-odwrócenie-zależności)
+- [Źródła:](#źródła)
+- [Pozostałe Materiały:](#pozostałe-materiały)
 
 ## SOLID
 ### S: Zasada pojedynczej odpowiedzialności
