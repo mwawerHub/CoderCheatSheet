@@ -1,6 +1,6 @@
 # CoderCheatSheet
 
-CoderCheatSheet is a repository with list of essential programing definitions.
+CoderCheatSheet is a repository with list of essential programing definitions <b> mainly focused around C# and .Net topics</b>.
 
 ## Important note
 
