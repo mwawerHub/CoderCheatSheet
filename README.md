@@ -25,4 +25,4 @@ For me this will be Kata-like learning habit which may (i hope) become helpful t
 
 ## Markdown
 
-For TOC i used <a href=https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">Markdown All in One</a> extension for VS Code.
+For TOC i used <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">Markdown All in One</a> extension for VS Code.
