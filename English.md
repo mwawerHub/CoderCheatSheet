@@ -1,5 +1,8 @@
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [Object oriented programming - OOP](#object-oriented-programming---oop)
+  - [Classes:](#classes)
+  - [Obiekt](#obiekt)
 - [SOLID](#solid)
   - [S: Single responsibility principle](#s-single-responsibility-principle)
   - [O: Open(for extensions)/Closed(for modifications)](#o-openfor-extensionsclosedfor-modifications)
@@ -7,6 +10,40 @@
   - [I: Interface segregation](#i-interface-segregation)
   - [D: Dependency Inversion](#d-dependency-inversion)
 
+
+***
+
+## Object oriented programming - OOP
+
+Object oriented programming is a concept which describes application logic as a set of classes and its dependencies. In object oriented programming we extend our application functionality by implementing new classes which represent concrete abstraction and its functionality. Object - instance of class has different states and implements its behavior with methods.
+
+
+### Classes:
+
+Classes are a part of object oriented languages. Their role is to describe application logic. Classes consist of elements such as:
+* fields
+* constructors
+* properties
+* functions
+* events
+
+Class is the definition of what an object whttp://www.albahari.com/nutshell/
+ould look like.
+
+
+### Obiekt
+The object is an instance of class. Objects are created using the *new* keyword:
+*var classInsctane = new Class();*
+The above expression will call the class constructor. If the constructor is not implemented then the default constructor will be called.
+
+Sources:
+
+ENG: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/classes
+ENG: https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming
+PL: https://cezarywalenciuk.pl/blog/programing/kurs-obiektowosc-w-c-klasa-i-obiekty-01
+Other Resources:
+
+http://www.albahari.com/nutshell/
 
 ***
 
@@ -37,7 +74,8 @@ When building dependencies between objects, base them on abstractions rather tha
 
 Sources:
 
-https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+ENG: https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+PL: https://www.p-programowanie.pl/paradygmaty-programowania/zasady-solid
 
 Other Resources:
 

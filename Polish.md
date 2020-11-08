@@ -1,5 +1,8 @@
 ## Spis Treści
 - [Spis Treści](#spis-treści)
+- [Programowanie Obiektowe (Object oriented programming - OOP)](#programowanie-obiektowe-object-oriented-programming---oop)
+  - [Klasy:](#klasy)
+  - [Obiekt](#obiekt)
 - [SOLID](#solid)
   - [S: (*Single responsibility principle*)Zasada pojedynczej odpowiedzialności](#s-single-responsibility-principlezasada-pojedynczej-odpowiedzialności)
   - [O: (*Open/closed principle*)Otwarty(na rozszerzanie)/Zamknięty(na modyfikację)](#o-openclosed-principleotwartyna-rozszerzaniezamkniętyna-modyfikację)
@@ -10,6 +13,39 @@
 
 ***
 
+## Programowanie Obiektowe (Object oriented programming - OOP)
+
+Programowanie obiektowe to koncepcja, w której logika programu przedstawiana jest za pomocą klas oraz ich wzajemnych zależności. W tej koncepcji rozszerzamy funkcjonalności aplikacji przez wprowadzanie kolejnych klas przedstawiających daną abstrakcję i odpowiedzialnych za konkretne funkcjonalności. Obiekty, czyli instancje zdefiniowanych klas posiadają różne stany oraz implementują metody.
+
+### Klasy:
+
+Klasy to elementy języków obiektowych, które służą do przedstawiania konkretnych abstrakcji lub, innymi słowy, elementów logiki programu. Klasy mogą zawierać w sobie elementy takie jak:
+
+* pola
+* konstruktory
+* właściwości
+* funkcje
+* zdarzenia
+
+Klasa jest definicją tego, jak będzie wyglądał obiekt.
+
+### Obiekt
+Obiekt to instancja klasy, czyli jej konkretny egzemplarz. Obiekty tworzymy za pomocą słowa kluczowego new:
+*var classInstance = new Class();*
+Takie wyrażenie powoduje wywołanie konstruktora klasy. Jeżeli konstruktor nie został zaimplementowany własnoręcznie, wywołany zostanie konstruktor domyślny.
+
+Źródła:
+
+PL/ENG: https://docs.microsoft.com/pl-pl/dotnet/csharp/programming-guide/classes-and-structs/classes
+PL/ENG: https://docs.microsoft.com/pl-pl/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming
+PL: https://cezarywalenciuk.pl/blog/programing/kurs-obiektowosc-w-c-klasa-i-obiekty-01
+
+
+Other Resources:
+
+http://www.albahari.com/nutshell/
+
+***
 ## SOLID
 ### S: (*Single responsibility principle*)Zasada pojedynczej odpowiedzialności
 
