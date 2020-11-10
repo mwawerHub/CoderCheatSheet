@@ -9,13 +9,18 @@
   - [L: (*Liskov substitution*)Zasada podstawienia Liskov](#l-liskov-substitutionzasada-podstawienia-liskov)
   - [I: (*Interface segregation*)Segregacja interfejsów](#i-interface-segregationsegregacja-interfejsów)
   - [D: (*Dependency Inversion*) Odwrócenie zależności](#d-dependency-inversion-odwrócenie-zależności)
+- [Złożoność obliczeniowa](#złożoność-obliczeniowa)
+  - [Złożoność obliczeniowa](#złożoność-obliczeniowa-1)
+  - [Złożoność pamięciowa](#złożoność-pamięciowa)
+  - [Typy notacji](#typy-notacji)
+  - [Typy oszacowań:](#typy-oszacowań)
 
 
 ***
 
 ## Programowanie Obiektowe (Object oriented programming - OOP)
 
-Programowanie obiektowe to koncepcja, w której logika programu przedstawiana jest za pomocą klas oraz ich wzajemnych zależności. W tej koncepcji rozszerzamy funkcjonalności aplikacji przez wprowadzanie kolejnych klas przedstawiających daną abstrakcję i odpowiedzialnych za konkretne funkcjonalności. Obiekty, czyli instancje zdefiniowanych klas posiadają różne stany oraz implementują metody.
+Programowanie obiektowe to koncepcja, w której logika programu przedstawiana jest za pomocą klas oraz ich wzajemnych zależności. W tej koncepcji rozszerzamy funkcjonalności aplikacji przez wprowadzanie kolejnych klas przedstawiających daną abstrakcję i odpowiedzialnych za konkretne funkcjonalności. Klasa jest reużywalnym fragmentem kodu, który definiuje stan obiektu poprzez atrybuty oraz jego zachowanie poprzez metody. Obiekty, czyli instancje zdefiniowanych klas posiadają konkretne wartości swoich atrybutów oraz umożliwiają wywołanie zaimplementowanych przez klasę metod.
 
 ### Klasy:
 
@@ -36,14 +41,14 @@ Takie wyrażenie powoduje wywołanie konstruktora klasy. Jeżeli konstruktor nie
 
 Źródła:
 
-PL/ENG: https://docs.microsoft.com/pl-pl/dotnet/csharp/programming-guide/classes-and-structs/classes
-PL/ENG: https://docs.microsoft.com/pl-pl/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming
-PL: https://cezarywalenciuk.pl/blog/programing/kurs-obiektowosc-w-c-klasa-i-obiekty-01
-
+* ENG: https://www.educative.io/blog/object-oriented-programming
+* PL: https://cezarywalenciuk.pl/blog/programing/kurs-obiektowosc-w-c-klasa-i-obiekty-01
+* PL/ENG: https://docs.microsoft.com/pl-pl/dotnet/csharp/programming-guide/classes-and-structs/classes
+* PL/ENG: https://docs.microsoft.com/pl-pl/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming
 
 Other Resources:
 
-http://www.albahari.com/nutshell/
+* http://www.albahari.com/nutshell/
 
 ***
 ## SOLID
@@ -73,10 +78,51 @@ Buduj zależności między obiektami na podstawie abstrakcji, a nie konkretnych 
 
 Źródła:
 
-PL: https://www.p-programowanie.pl/paradygmaty-programowania/zasady-solid
-<br>
-ENG: https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+* PL: https://www.p-programowanie.pl/paradygmaty-programowania/zasady-solid
+* ENG: https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+* ENG: https://www.educative.io/blog/solid-principles-oop-c-sharp
 
 Pozostałe Materiały:
 
-https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
+* https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
+
+***
+
+## Złożoność obliczeniowa
+
+Powszechnym sposobem przedstawiania złożoności obliczeniowej algorytmu jest oszacowanie.
+
+### Złożoność obliczeniowa
+
+Złożoność obliczeniowa to ilość operacji, jaka niezbędna jest do wykonania algorytmu.
+
+### Złożoność pamięciowa
+
+Złożoność pamięciowa to ilość pamięci, jaką musi wykorzystać algorytm.
+
+### Typy notacji
+
+<b>Notacja dużego O (*Big-O notation*):</b>
+
+Najczęściej spotykany rodzaj oszacowania. Wyrażony jest za pomocą funkcji *g(n)* dla której spełniona jest następująca zależność:<br> *∀n⩾n0:f(n)⩽c∗g(n)*<br>
+Od pewnych wartości n (*n0*) jeśli przemnożymy funkcję *g(n)* przez pewną stałą *c*, funkcja *g(n)* będzie zawsze większa od funkcji opisującej ten algorytm. Nazywamy to oszacowaniem z góry.
+
+<b>Notacja Ω:</b>
+
+Jest to odwrotność notacji dużego O. Oszacowanie to opisane jest funkcją, która spełnia właściwość:<br>
+*∀n⩾n0:f(n)⩾c∗g(n).*<br>
+Od pewnych wartości n (*n0*) jeśli przemnożymy funkcję *g(n)* przez pewną stałą *c*, funkcja *g(n)* będzie zawsze większa od funkcji opisującej ten algorytm. Nazywamy to oszacowaniem z góry.
+
+### Typy oszacowań:
+
+* Ο(*1*) - Złożoność stała. Stała liczba operacji.
+* O(*log n*) - Złożoność logarytmiczna. Czas wykonania zależny będzie od wyniku funkcji *log n*. Najczęściej spotykana w algorytmach, które przy każdej iteracji dzielą zbiór danych na pół.
+* O(*n*) - Złożoność liniowa. Liczba operacji zależna od ilości danych.
+* O(*n2*) - Złożoność kwadratowa. Jest to szczególny przypadek złożoności wielomianowej. Liczba operacji może sięgnąć do wyniku funkcji n^2.
+
+Źródła:
+
+* ENG: https://codility.com/media/train/1-TimeComplexity.pdf
+* ENG: https://cs.stackexchange.com/questions/16461/memory-complexity
+* PL: http://cpp0x.pl/kursy/Teoria-w-Informatyce/424
+* PL: https://www.samouczekprogramisty.pl/podstawy-zlozonosci-obliczeniowej/
