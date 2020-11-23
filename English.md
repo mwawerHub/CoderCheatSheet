@@ -3,6 +3,7 @@
 - [Object oriented programming - OOP](#object-oriented-programming---oop)
   - [Classes:](#classes)
   - [Object](#object)
+  - [Attributes](#attributes)
 - [SOLID](#solid)
   - [S: Single responsibility principle](#s-single-responsibility-principle)
   - [O: Open(for extensions)/Closed(for modifications)](#o-openfor-extensionsclosedfor-modifications)
@@ -40,6 +41,11 @@ ould look like.
 The object is an instance of class. Objects are created using the *new* keyword:
 *var classInsctane = new Class();*
 The above expression will call the class constructor. If the constructor is not implemented then the default constructor will be called.
+
+### Attributes
+
+Attributes are information that defines the object state. A class building can contain fields and/or properties like width, height, area, number of floors, roof type etc. Concrete object of class building can be for ex: a house or a skyscraper.
+Both objects will have different values for their fields and properties defined in class building. Therefore, they will have different attributes.
 
 Sources:
 

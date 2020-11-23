@@ -3,6 +3,7 @@
 - [Programowanie Obiektowe (Object oriented programming - OOP)](#programowanie-obiektowe-object-oriented-programming---oop)
   - [Klasy:](#klasy)
   - [Obiekt](#obiekt)
+  - [Atrybuty](#atrybuty)
 - [SOLID](#solid)
   - [S: (*Single responsibility principle*)Zasada pojedynczej odpowiedzialności](#s-single-responsibility-principlezasada-pojedynczej-odpowiedzialności)
   - [O: (*Open/closed principle*)Otwarty(na rozszerzanie)/Zamknięty(na modyfikację)](#o-openclosed-principleotwartyna-rozszerzaniezamkniętyna-modyfikację)
@@ -38,6 +39,11 @@ Klasa jest definicją tego, jak będzie wyglądał obiekt.
 Obiekt to instancja klasy, czyli jej konkretny egzemplarz. Obiekty tworzymy za pomocą słowa kluczowego new:
 *var classInstance = new Class();*
 Takie wyrażenie powoduje wywołanie konstruktora klasy. Jeżeli konstruktor nie został zaimplementowany własnoręcznie, wywołany zostanie konstruktor domyślny.
+
+### Atrybuty
+
+Atrybuty są informacjami, które definiują stan obiektu. Przykładowo, klasa *Budynek* może zawierać pola oraz/lub właściwości takie jak wysokość, szerokość, powierzchnia, liczba pięter, rodzaj zadaszenia itp.
+Konkretne egzemplarze klasy to na przykład: *Dom* i *DrapaczChmur*. Każdy z tych obiektów będzie miał różne wartości dla zdefiniowanych przez klasę *Budynek* pół i właściwości. Tym samym obiekty będą miały różne atrybuty. 
 
 Źródła:
 
